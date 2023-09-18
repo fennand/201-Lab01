@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-color: beige;
+  font-family: "Poppins", serif;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: cadetblue;
+  color: azure;
+  padding: 12px 0px;
+}
+
+h1 {
+  color: darkolivegreen;
+  background-color: azure;
+  padding: 20px;
+  font-size: 45px;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 50%;
+  text-decoration: underline dotted blueviolet;
+  filter: drop-shadow(10px 10px 10px #a4bbff);
+  width: 50%;
+  margin: auto;
+  margin-top: 16px;
+}
+
+p {
+  padding: 15px;
+  font-size: 30px;
+}
+
+#p-one {
+  color: blue;
+  background-color: aquamarine;
+}
+
+#p-two {
+  color: blueviolet;
+  background-color: bisque;
+}
+
+#p-three {
+  color: crimson;
+  background-color: chartreuse;
+}
+
+#p-four {
+  color: darkgreen;
+  background-color: darksalmon;
+}
+
+#demo {
+  color: #e0e1dd;
+  background-color: #415a77;
+  animation-name: back;
+  animation-duration: 4s;
+  animation-iteration-count: 20;
+  animation-delay: 4s;
+}
+
+@keyframes back {
+  0% {
+    background-color: #778da9;
+  }
+  25% {
+    background-color: #415a77;
+  }
+  50% {
+    background-color: #1b263b;
+  }
+  100% {
+    background-color: #0d1b2a;
+  }
+}
+
+img {
+  width: 250px;
+  border-radius: 10%;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #4caf50;
+  border-radius: 20%;
+  font-family: "Poppins", serif;
+}
+
+.button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* footer {
+  background-color: cadetblue;
+  text-align: center;
+  color: azure;
+}
+ */
